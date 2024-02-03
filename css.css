@@ -1,0 +1,211 @@
+
+* {background: rgb(0,148,97);
+    background: linear-gradient(9deg, rgba(0,148,97,1) 0%, rgba(0,112,148,1) 72%);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+p { 
+    background: rgba(0,0,0 ,0.1);
+}
+
+/* Inline styling */
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Internal styling */
+nav {
+    background-color: Black;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    display: inline-block;
+}
+
+/* External styling */
+.container {
+   
+    width: 100%;
+    /* Adjusted margin */
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Flexbox */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Additional styling for your creativity */
+section {
+    margin: 10px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* Inventory form design */
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    margin: 0;
+    padding: 0px;
+    /* Adjusted padding */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    height: auto;
+    width: 80%;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.card-body {
+    border: 1px solid black;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center
+
+}
+
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    animation: fadeOut 1s ease-out;
+    
+
+
+}
+
+.card-body p,
+.card-body h1 {
+    margin: 8px;
+
+}
+
+
+@keyframes fadeOut {
+    from {
+        opacity: 0;
+        transform: translateY(-5%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+ ul {
+    display: flex;
+    list-style-type: none;
+    border-radius: 8px;
+    border: 2px solid #57636e;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    height: 8vh;
+    background-color: #00d3f813;
+}
+
+li {
+    display: block;
+    flex: 1;
+    float: left;
+    margin: auto;
+    border-right: 1px solid #bbbbbba6;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: rgb(223, 229, 233);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #5f6f8b;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.active {
+    background-color: #4a5f7a;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
