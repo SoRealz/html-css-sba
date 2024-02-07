@@ -8,6 +8,8 @@ p {
     background: rgba(0,0,0 ,0.1);
 }
 
+h2 { text-align: center;}
+
 /* Inline styling */
 header {
     background-color: #3498db;
@@ -18,7 +20,7 @@ header {
 
 /* Internal styling */
 nav {
-    background-color: Black;
+   
     padding: 5px;
     border: 1px solid black;
 }
